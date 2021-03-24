@@ -1,0 +1,38 @@
+{
+  "name": "blogsystem",
+  "version": "1.0.0",
+  "description": "A Blog System",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "babel-watch src/app/system/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josuemurhabazi/blogSystem.git"
+  },
+  "author": "Josué Murhabazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josuemurhabazi/blogSystem/issues"
+  },
+  "homepage": "https://github.com/josuemurhabazi/blogSystem#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "mysql2": "^2.2.5",
+    "prettier": "^2.2.1",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "babel-watch": "^7.4.1",
+    "eslint": "^7.22.0",
+    "eslint-config-eslint": "^7.0.0",
+    "eslint-config-prettier": "^8.1.0",
+    "jest": "^26.6.3"
+  }
+}
